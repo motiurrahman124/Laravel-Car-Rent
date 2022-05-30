@@ -34,7 +34,7 @@ class SiteController extends Controller
     }
     public function dashboard()
     {
-        return view('dashboard');
+        return view('back.layouts.index');
     }
     public function carBook()
     {
@@ -60,7 +60,7 @@ class SiteController extends Controller
         $data['message']=$request->message;
 
         CarBook::create($data);
-       return redirect()->route('car_booking');
+       return redirect()->route('home');
     }
 
     public function logout()

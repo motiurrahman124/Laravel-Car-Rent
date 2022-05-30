@@ -12,7 +12,7 @@
     <th>Name</th>
     <th>Email</th>
     <th>Date</th>
-    <th>Doctor Name</th>
+    <th>Car Name</th>
     <th>Phone</th>
     <th>Status</th>
     </tr>
@@ -28,7 +28,7 @@
                 <td>{{$booklist->time}}</td>
                 <td>{{$booklist->car_name}}</td>
                 <td>{{$booklist->number}}</td>
-                <td><a type="button" class="btn btn-warning disabled">{{$booklist->status}}</td>
+                <td><a type="button" class="btn btn-info disabled">{{$booklist->status}}</td>
             
               </tr>
                

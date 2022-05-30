@@ -58,15 +58,15 @@
           <ul>
             <li>
               <div class="icon_wrap"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-              <div class="contact_info_m">Data</div>
+              <div class="contact_info_m">Address here</div>
             </li>
             <li>
               <div class="icon_wrap"><i class="fa fa-phone" aria-hidden="true"></i></div>
-              <div class="contact_info_m"><a href="tel:61-1234-567-90">Data</a></div>
+              <div class="contact_info_m"><a href="tel:61-1234-567-90">+8801920085604/+8801964873414</a></div>
             </li>
             <li>
               <div class="icon_wrap"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-              <div class="contact_info_m"><a href="mailto:contact@exampleurl.com">Data</a></div>
+              <div class="contact_info_m"><a href="mailto:contact@exampleurl.com">mailaddress@gmail.com</a></div>
             </li>
           </ul>
         </div>

@@ -116,6 +116,13 @@ class DashboardController extends Controller
         $data->save();
         return redirect()->back(); 
     }
+    public function cancel($id)
+    {
+        $data=CarBook::find($id);
+        $data['status']='canceled';
+        $data->save();
+        return redirect()->back(); 
+    }
 
     public function admin_logout()
     {

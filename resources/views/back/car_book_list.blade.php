@@ -50,6 +50,7 @@
                     <td>
                      
                       <a type="button" href="{{route('approval',$value->id)}}" class="btn btn-success">Approve</a>
+                      <a type="button" href="{{route('cancel',$value->id)}}" class="btn btn-danger">Cancel</a>
                   </td>
                     
 

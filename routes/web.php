@@ -31,6 +31,7 @@ Route::get('/addCar','DashboardController@addCar')->name('add_car');
 Route::get('/car_delete/{id}','DashboardController@delete')->name('car_delete');
 Route::get('/logout','SiteController@logout')->name('logout');
 Route::get('/approval/{id}','DashboardController@approval')->name('approval');
+Route::get('/cancel/{id}','DashboardController@cancel')->name('cancel');
 Route::get('/admin_logout','DashboardController@admin_logout')->name('admin_logout');
 
 
