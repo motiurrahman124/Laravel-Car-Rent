@@ -27,6 +27,7 @@ Route::post('/adminPanel','DashboardController@createLogin')->name('admin_dashbo
 Route::post('/create_car','DashboardController@createCar')->name('car_create');
 Route::get('/car_list','DashboardController@car_list')->name('car_list');
 Route::get('/car_book_list','DashboardController@car_book_list')->name('car_book_list');
+Route::get('/user_list','DashboardController@userList')->name('user_list');
 Route::get('/addCar','DashboardController@addCar')->name('add_car');
 Route::get('/car_delete/{id}','DashboardController@delete')->name('car_delete');
 Route::get('/logout','SiteController@logout')->name('logout');

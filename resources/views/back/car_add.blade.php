@@ -7,9 +7,9 @@
         <!-- left column -->
         <div class="col-md-12">
           <!-- jquery validation -->
-          <div class="card card-primary">
+          <div class="card card-info">
             <div class="card-header">
-              <h3 class="card-title">Add car</h3>
+              <h3 class="card-title">Add Car</h3>
             </div>
             <!-- /.card-header -->
             <!-- form start -->
@@ -18,7 +18,7 @@
               <div class="card-body">
 
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Vehicle Title</label>
+                  <label for="exampleInputPassword1">Car Title</label>
                   <input type="text" name="car_name" class="form-control" id="exampleInputPassword1" >
 
                 </div>
@@ -58,7 +58,7 @@
 
               <!-- /.card-body -->
               <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-info">Submit</button>
               </div>
             </form>
           </div>

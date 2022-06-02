@@ -8,14 +8,14 @@
       <!-- /.row -->
       <div class="row">
         <div class="col-12">
-          <div class="card">
-            <div class="card-header">
-              <h2 class="card-title">Admin Panel</h2>
+          <div class="card card-info">
+            <div class="card-header ">
+              <h2 class="card-title">Car List</h2>
 
 
-              <div class="card-tools">
+              <div class="card-tools ">
                 <div class="input-group input-group-sm" style="width: 150px;">
-                  <a type="button" href="{{route('add_car')}}" class="btn btn-info">New Car</a>
+                  <a type="button" href="{{route('add_car')}}" class="btn bg-lime">Add New Car</a>
                 </div>
               </div>
             </div>
@@ -23,7 +23,7 @@
             <!-- /.card-header -->
             <div class="card-body table-responsive " style="height: 490px;">
               <table class="table table-head-fixed text-nowrap">
-                <thead>
+                <thead class="text-info">
                   <tr>
                     <th>SL.</th>
                     <th>Car Title</th>

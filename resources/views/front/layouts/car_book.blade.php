@@ -3,7 +3,7 @@
 
 <div class="page-section">
     <div class="container">
-      <h1 class="text-center wow fadeInUp">Make a Car Booking</h1>
+      <h1 class="text-center wow fadeInUp text-info">Make a Car Booking</h1>
 
       <form class="main-form" role="form" action="{{ route('carBookCreate') }}" method="post" id="quickForm" enctype="multipart/form-data">
       @csrf 

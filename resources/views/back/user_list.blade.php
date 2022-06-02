@@ -7,10 +7,10 @@
     <div class="container-fluid">
       <!-- /.row -->
       <div class="row">
-        <div class="col-12 ">
+        <div class="col-12">
           <div class="card card-info">
             <div class="card-header">
-              <h2 class="card-title ">Car Booking List</h2>
+              <h2 class="card-title">User List</h2>
 
 
               
@@ -24,33 +24,25 @@
                     <th>Sl</th>
                     <th>Name</th>
                     <th>Email</th>
-                    <th>Date</th>
-                    <th>Car Name</th>
-                    <th>Phone</th>
-                    <th>Message</th>
-                    <th>Status</th>
-                    <th>Action</th>
+                    <th>Created At</th>
+                    
 
                   </tr>
                 </thead>
                 <tbody>
                   <?php $i=0 ?>
 
-                @foreach($car as $value)
+                @foreach($user as $value)
                 
                     <tr>
                     <td>{{$loop->iteration}}</td>
                     <td>{{$value->name}}</td>
                     <td>{{$value->email}}</td>
-                    <td>{{$value->time}}</td>
-                    <td>{{$value->car_name}}</td>
-                    <td>{{$value->number}}</td>
-                    <td>{{$value->message}}</td>
-                    <td>{{$value->status}}</td>
+                    <td>{{$value->created_at}}</td>
+                    
                     <td>
                      
-                      <a type="button" href="{{route('approval',$value->id)}}" class="btn btn-success">Approve</a>
-                      <a type="button" href="{{route('cancel',$value->id)}}" class="btn btn-danger">Cancel</a>
+                    
                   </td>
                     
 

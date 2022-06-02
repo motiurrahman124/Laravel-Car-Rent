@@ -95,6 +95,15 @@ class DashboardController extends Controller
         return view('back.car_book_list',['car'=>$car]);
 
     }
+    public function userList()
+    {
+        
+        $user=User::all();
+
+
+        return view('back.user_list',['user'=>$user]);
+
+    }
 
     public function delete($id)
     {
